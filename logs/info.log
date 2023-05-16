@@ -1,0 +1,9 @@
+info: Retrieved and cached current weather data for sarajevo {"timestamp":"2023-05-16T12:38:47.758Z"}
+info: Returning cached current weather data for sarajevo {"timestamp":"2023-05-16T12:38:59.756Z"}
+error: Failed to fetch weather history data for sarajevo {"timestamp":"2023-05-16T12:53:42.362Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\User\programming\weatherAPI\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\User\programming\weatherAPI\api\controllers\weatherController.js:31:27) {"timestamp":"2023-05-16T12:53:42.371Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\api\\controllers\\weatherController.js:31:27)","timestamp":"2023-05-16T12:53:42.375Z"}
+info: Retrieved and cached weather history data for sarajevo {"timestamp":"2023-05-16T12:53:55.262Z"}
