@@ -1,5 +1,4 @@
 const weatherService = require("../../services/weatherService");
-// const cache = require('../utils/cache');
 
 const weatherController = {
   getCurrentWeather: async (req, res, next) => {
