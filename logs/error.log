@@ -4,3 +4,105 @@ error: Error: Failed to fetch weather history data
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async getWeatherHistory (C:\Users\User\programming\weatherAPI\api\controllers\weatherController.js:31:27) {"timestamp":"2023-05-16T12:53:42.371Z"}
 error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\api\\controllers\\weatherController.js:31:27)","timestamp":"2023-05-16T12:53:42.375Z"}
+error: Error: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\users.json'
+    at Object.openSync (node:fs:601:3)
+    at Object.readFileSync (node:fs:469:35)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\routes\authentication.js:12:31
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10) {"timestamp":"2023-05-17T13:55:33.498Z"}
+error: An error occurred: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\users.json' {"code":"ENOENT","errno":-4058,"path":"C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\users.json","stack":"Error: ENOENT: no such file or directory, open 'C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\users.json'\n    at Object.openSync (node:fs:601:3)\n    at Object.readFileSync (node:fs:469:35)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\routes\\authentication.js:12:31\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)","syscall":"open","timestamp":"2023-05-17T13:55:33.500Z"}
+error: Error: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\users.json'
+    at Object.openSync (node:fs:601:3)
+    at Object.readFileSync (node:fs:469:35)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\routes\authentication.js:12:31
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10) {"timestamp":"2023-05-17T13:55:39.795Z"}
+error: An error occurred: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\users.json' {"code":"ENOENT","errno":-4058,"path":"C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\users.json","stack":"Error: ENOENT: no such file or directory, open 'C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\users.json'\n    at Object.openSync (node:fs:601:3)\n    at Object.readFileSync (node:fs:469:35)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\routes\\authentication.js:12:31\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)","syscall":"open","timestamp":"2023-05-17T13:55:39.796Z"}
+error: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\routes\authentication.js:12:22
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:175:3) {"timestamp":"2023-05-17T13:55:58.371Z"}
+error: An error occurred: Unexpected end of JSON input {"stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\routes\\authentication.js:12:22\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:175:3)","timestamp":"2023-05-17T13:55:58.373Z"}
+error: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\routes\authentication.js:12:22
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:175:3) {"timestamp":"2023-05-17T13:56:56.245Z"}
+error: An error occurred: Unexpected end of JSON input {"stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\routes\\authentication.js:12:22\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:175:3)","timestamp":"2023-05-17T13:56:56.247Z"}
+error: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\routes\authentication.js:12:22
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:175:3) {"timestamp":"2023-05-17T13:58:33.794Z"}
+error: An error occurred: Unexpected end of JSON input {"stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\routes\\authentication.js:12:22\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:175:3)","timestamp":"2023-05-17T13:58:33.796Z"}
+error: Error: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\api\users.json'
+    at Object.openSync (node:fs:601:3)
+    at Object.readFileSync (node:fs:469:35)
+    at login (C:\Users\darkm\Desktop\Tmp\weather-API\api\controllers\authentication.js:41:33)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10) {"timestamp":"2023-05-17T14:36:10.768Z"}
+error: An error occurred: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\api\users.json' {"code":"ENOENT","errno":-4058,"path":"C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\users.json","stack":"Error: ENOENT: no such file or directory, open 'C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\users.json'\n    at Object.openSync (node:fs:601:3)\n    at Object.readFileSync (node:fs:469:35)\n    at login (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\controllers\\authentication.js:41:33)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)","syscall":"open","timestamp":"2023-05-17T14:36:10.770Z"}
+error: Error: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\api\users.json'
+    at Object.openSync (node:fs:601:3)
+    at Object.readFileSync (node:fs:469:35)
+    at signup (C:\Users\darkm\Desktop\Tmp\weather-API\api\controllers\authentication.js:10:33)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10) {"timestamp":"2023-05-17T14:36:16.625Z"}
+error: An error occurred: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\api\users.json' {"code":"ENOENT","errno":-4058,"path":"C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\users.json","stack":"Error: ENOENT: no such file or directory, open 'C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\users.json'\n    at Object.openSync (node:fs:601:3)\n    at Object.readFileSync (node:fs:469:35)\n    at signup (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\controllers\\authentication.js:10:33)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)","syscall":"open","timestamp":"2023-05-17T14:36:16.627Z"}
+error: Failed to fetch weather history data for Sarajevo {"timestamp":"2023-05-19T06:42:51.926Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\api\controllers\weatherController.js:30:27) {"timestamp":"2023-05-19T06:42:51.929Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-19T06:42:51.931Z"}
+error: Failed to fetch weather history data for Sarajevo {"timestamp":"2023-05-19T06:43:06.263Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\api\controllers\weatherController.js:30:27) {"timestamp":"2023-05-19T06:43:06.266Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-19T06:43:06.269Z"}
+error: Failed to fetch weather history data for Sarajevo {"timestamp":"2023-05-19T06:43:11.171Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\api\controllers\weatherController.js:30:27) {"timestamp":"2023-05-19T06:43:11.174Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-19T06:43:11.177Z"}

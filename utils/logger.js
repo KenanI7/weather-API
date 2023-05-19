@@ -13,4 +13,11 @@ const logger = winston.createLogger({
   ],
 });
 
+// Create a writable stream to redirect morgan logs to the logger
+logger.stream = {
+  write: function (message) {
+    logger.info(message.trim());
+  },
+};
+
 module.exports = logger;

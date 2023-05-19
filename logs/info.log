@@ -7,3 +7,242 @@ error: Error: Failed to fetch weather history data
     at async getWeatherHistory (C:\Users\User\programming\weatherAPI\api\controllers\weatherController.js:31:27) {"timestamp":"2023-05-16T12:53:42.371Z"}
 error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\api\\controllers\\weatherController.js:31:27)","timestamp":"2023-05-16T12:53:42.375Z"}
 info: Retrieved and cached weather history data for sarajevo {"timestamp":"2023-05-16T12:53:55.262Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:39:07.184Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:40:35.173Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:41:06.923Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:41:30.576Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:41:34.486Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:51:41.722Z"}
+info: Retrieved and cached current weather data for Sarajevo {"timestamp":"2023-05-17T13:52:09.638Z"}
+info: ::1 - - [17/May/2023:13:52:09 +0000] "GET /weather/current?location=Sarajevo HTTP/1.1" 200 669 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:52:09.645Z"}
+info: ::1 - - [17/May/2023:13:52:38 +0000] "GET /auth/signup HTTP/1.1" 404 150 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:52:38.018Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:53:51.694Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:53:56.413Z"}
+info: ::1 - - [17/May/2023:13:53:58 +0000] "GET /auth/signup HTTP/1.1" 404 150 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:53:58.321Z"}
+info: ::1 - - [17/May/2023:13:54:09 +0000] "GET /auth/signup/ HTTP/1.1" 404 151 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:54:09.432Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:54:43.549Z"}
+info: ::1 - - [17/May/2023:13:54:44 +0000] "GET /auth/signup HTTP/1.1" 404 150 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:54:44.815Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:54:49.253Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:55:02.299Z"}
+error: Error: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\users.json'
+    at Object.openSync (node:fs:601:3)
+    at Object.readFileSync (node:fs:469:35)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\routes\authentication.js:12:31
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10) {"timestamp":"2023-05-17T13:55:33.498Z"}
+error: An error occurred: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\users.json' {"code":"ENOENT","errno":-4058,"path":"C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\users.json","stack":"Error: ENOENT: no such file or directory, open 'C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\users.json'\n    at Object.openSync (node:fs:601:3)\n    at Object.readFileSync (node:fs:469:35)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\routes\\authentication.js:12:31\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)","syscall":"open","timestamp":"2023-05-17T13:55:33.500Z"}
+info: ::1 - - [17/May/2023:13:55:33 +0000] "POST /auth/signup HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:55:33.512Z"}
+error: Error: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\users.json'
+    at Object.openSync (node:fs:601:3)
+    at Object.readFileSync (node:fs:469:35)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\routes\authentication.js:12:31
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10) {"timestamp":"2023-05-17T13:55:39.795Z"}
+error: An error occurred: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\users.json' {"code":"ENOENT","errno":-4058,"path":"C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\users.json","stack":"Error: ENOENT: no such file or directory, open 'C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\users.json'\n    at Object.openSync (node:fs:601:3)\n    at Object.readFileSync (node:fs:469:35)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\routes\\authentication.js:12:31\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)","syscall":"open","timestamp":"2023-05-17T13:55:39.796Z"}
+info: ::1 - - [17/May/2023:13:55:39 +0000] "POST /auth/signup HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:55:39.799Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:55:54.313Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:55:55.693Z"}
+error: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\routes\authentication.js:12:22
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:175:3) {"timestamp":"2023-05-17T13:55:58.371Z"}
+error: An error occurred: Unexpected end of JSON input {"stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\routes\\authentication.js:12:22\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:175:3)","timestamp":"2023-05-17T13:55:58.373Z"}
+info: ::1 - - [17/May/2023:13:55:58 +0000] "POST /auth/signup HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:55:58.381Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:56:12.563Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:56:48.941Z"}
+error: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\routes\authentication.js:12:22
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:175:3) {"timestamp":"2023-05-17T13:56:56.245Z"}
+error: An error occurred: Unexpected end of JSON input {"stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\routes\\authentication.js:12:22\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:175:3)","timestamp":"2023-05-17T13:56:56.247Z"}
+info: ::1 - - [17/May/2023:13:56:56 +0000] "POST /auth/signup HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:56:56.255Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:58:31.371Z"}
+error: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\routes\authentication.js:12:22
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:175:3) {"timestamp":"2023-05-17T13:58:33.794Z"}
+error: An error occurred: Unexpected end of JSON input {"stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\routes\\authentication.js:12:22\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:175:3)","timestamp":"2023-05-17T13:58:33.796Z"}
+info: ::1 - - [17/May/2023:13:58:33 +0000] "POST /auth/signup HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:58:33.805Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:59:20.434Z"}
+info: ::1 - - [17/May/2023:13:59:21 +0000] "POST /auth/signup HTTP/1.1" 200 31 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:59:21.808Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:59:22.353Z"}
+info: ::1 - - [17/May/2023:13:59:26 +0000] "POST /auth/signup HTTP/1.1" 400 35 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:59:26.445Z"}
+info: ::1 - - [17/May/2023:13:59:29 +0000] "POST /auth/signup HTTP/1.1" 200 31 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:59:29.700Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:59:30.233Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:59:33.728Z"}
+info: ::1 - - [17/May/2023:13:59:41 +0000] "POST /auth/signup HTTP/1.1" 200 31 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T13:59:41.999Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T13:59:44.406Z"}
+info: ::1 - - [17/May/2023:14:00:03 +0000] "GET /login/ HTTP/1.1" 404 145 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:00:03.972Z"}
+info: ::1 - - [17/May/2023:14:00:20 +0000] "POST /login/ HTTP/1.1" 404 146 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:00:20.466Z"}
+info: ::1 - - [17/May/2023:14:00:25 +0000] "POST /login HTTP/1.1" 404 145 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:00:25.696Z"}
+info: ::1 - - [17/May/2023:14:00:29 +0000] "GET /login HTTP/1.1" 404 144 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:00:29.657Z"}
+info: ::1 - - [17/May/2023:14:00:36 +0000] "GET /auth/login HTTP/1.1" 404 149 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:00:36.998Z"}
+info: ::1 - - [17/May/2023:14:00:41 +0000] "POST /auth/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:00:41.918Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:03:27.655Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:07:47.563Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:09:30.476Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:09:48.182Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:10:20.975Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:10:33.606Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:10:37.866Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:10:40.504Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:11:29.640Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:12:31.250Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:12:33.231Z"}
+info: ::1 - - [17/May/2023:14:13:46 +0000] "GET /weather/current?location=Sarajevo HTTP/1.1" 302 28 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:13:46.323Z"}
+info: ::1 - - [17/May/2023:14:13:46 +0000] "GET /login HTTP/1.1" 404 144 "http://localhost:3000/weather/current?location=Sarajevo" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:13:46.327Z"}
+info: ::1 - - [17/May/2023:14:13:51 +0000] "GET /weather/current?location=Sarajevo HTTP/1.1" 302 28 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:13:51.220Z"}
+info: ::1 - - [17/May/2023:14:13:51 +0000] "GET /login HTTP/1.1" 404 144 "http://localhost:3000/weather/current?location=Sarajevo" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:13:51.223Z"}
+info: ::1 - - [17/May/2023:14:13:59 +0000] "GET /weather/current?location=Sarajevo HTTP/1.1" 302 28 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:13:59.458Z"}
+info: ::1 - - [17/May/2023:14:13:59 +0000] "GET /login HTTP/1.1" 404 144 "http://localhost:3000/weather/current?location=Sarajevo" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:13:59.460Z"}
+info: Retrieved and cached weather forecast data for Sarajevo {"timestamp":"2023-05-17T14:14:18.421Z"}
+info: ::1 - - [17/May/2023:14:14:18 +0000] "GET /weather/forecast?location=Sarajevo&days=3 HTTP/1.1" 200 48262 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:14:18.431Z"}
+info: ::1 - - [17/May/2023:14:14:24 +0000] "GET /weather/current?location=Sarajevo HTTP/1.1" 302 28 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:14:24.483Z"}
+info: ::1 - - [17/May/2023:14:14:24 +0000] "GET /login HTTP/1.1" 404 144 "http://localhost:3000/weather/current?location=Sarajevo" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:14:24.486Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:15:39.587Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:15:43.079Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:15:49.822Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:26:30.307Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:26:53.916Z"}
+info: ::1 - - [17/May/2023:14:27:06 +0000] "GET /weather/current?location=Sarajevo HTTP/1.1" 302 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:27:06.013Z"}
+info: ::1 - - [17/May/2023:14:27:06 +0000] "GET /auth/login HTTP/1.1" 404 149 "http://localhost:3000/weather/current?location=Sarajevo" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:27:06.017Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:27:31.568Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:27:47.099Z"}
+info: Retrieved and cached current weather data for Sarajevo {"timestamp":"2023-05-17T14:27:51.161Z"}
+info: ::1 - - [17/May/2023:14:27:51 +0000] "GET /weather/current?location=Sarajevo HTTP/1.1" 200 669 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:27:51.170Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:29:57.291Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:30:00.157Z"}
+info: ::1 - - [17/May/2023:14:30:07 +0000] "GET /weather/current?location=Sarajevo HTTP/1.1" 401 31 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:30:07.047Z"}
+info: ::1 - - [17/May/2023:14:30:42 +0000] "POST /auth/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:30:42.023Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:31:19.045Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:32:46.298Z"}
+info: ::1 - - [17/May/2023:14:32:48 +0000] "POST /auth/login HTTP/1.1" 200 77 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:32:48.864Z"}
+info: Retrieved and cached current weather data for Sarajevo {"timestamp":"2023-05-17T14:33:18.650Z"}
+info: ::1 - - [17/May/2023:14:33:18 +0000] "GET /weather/current?location=Sarajevo HTTP/1.1" 200 669 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:33:18.653Z"}
+info: Returning cached current weather data for Sarajevo {"timestamp":"2023-05-17T14:33:38.115Z"}
+info: ::1 - - [17/May/2023:14:33:38 +0000] "GET /weather/current?location=Sarajevo HTTP/1.1" 200 669 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:33:38.117Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:33:43.585Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:33:45.342Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:33:46.507Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:33:47.658Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:33:48.540Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:33:49.661Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:33:50.626Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:33:53.942Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:34:27.174Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:34:59.781Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:35:15.957Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:35:35.532Z"}
+info: ::1 - - [17/May/2023:14:36:05 +0000] "GET /weather/current?location=Sarajevo HTTP/1.1" 401 31 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:36:05.372Z"}
+error: Error: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\api\users.json'
+    at Object.openSync (node:fs:601:3)
+    at Object.readFileSync (node:fs:469:35)
+    at login (C:\Users\darkm\Desktop\Tmp\weather-API\api\controllers\authentication.js:41:33)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10) {"timestamp":"2023-05-17T14:36:10.768Z"}
+error: An error occurred: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\api\users.json' {"code":"ENOENT","errno":-4058,"path":"C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\users.json","stack":"Error: ENOENT: no such file or directory, open 'C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\users.json'\n    at Object.openSync (node:fs:601:3)\n    at Object.readFileSync (node:fs:469:35)\n    at login (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\controllers\\authentication.js:41:33)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)","syscall":"open","timestamp":"2023-05-17T14:36:10.770Z"}
+info: ::1 - - [17/May/2023:14:36:10 +0000] "POST /auth/login HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:36:10.773Z"}
+error: Error: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\api\users.json'
+    at Object.openSync (node:fs:601:3)
+    at Object.readFileSync (node:fs:469:35)
+    at signup (C:\Users\darkm\Desktop\Tmp\weather-API\api\controllers\authentication.js:10:33)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\darkm\Desktop\Tmp\weather-API\node_modules\express\lib\router\index.js:280:10) {"timestamp":"2023-05-17T14:36:16.625Z"}
+error: An error occurred: ENOENT: no such file or directory, open 'C:\Users\darkm\Desktop\Tmp\weather-API\api\users.json' {"code":"ENOENT","errno":-4058,"path":"C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\users.json","stack":"Error: ENOENT: no such file or directory, open 'C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\users.json'\n    at Object.openSync (node:fs:601:3)\n    at Object.readFileSync (node:fs:469:35)\n    at signup (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\controllers\\authentication.js:10:33)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\node_modules\\express\\lib\\router\\index.js:280:10)","syscall":"open","timestamp":"2023-05-17T14:36:16.627Z"}
+info: ::1 - - [17/May/2023:14:36:16 +0000] "POST /auth/signup HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:36:16.629Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:37:03.825Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:37:33.906Z"}
+info: ::1 - - [17/May/2023:14:37:37 +0000] "POST /auth/signup HTTP/1.1" 400 35 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:37:37.929Z"}
+info: ::1 - - [17/May/2023:14:37:42 +0000] "POST /auth/login HTTP/1.1" 200 77 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:37:42.846Z"}
+info: Retrieved and cached current weather data for Sarajevo {"timestamp":"2023-05-17T14:37:45.925Z"}
+info: ::1 - - [17/May/2023:14:37:45 +0000] "GET /weather/current?location=Sarajevo HTTP/1.1" 200 669 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-17T14:37:45.929Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:37:52.538Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:38:12.132Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:38:26.565Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:38:36.604Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:38:44.251Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:39:02.989Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-17T14:39:36.464Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-19T06:41:47.346Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-19T06:41:52.913Z"}
+info: ::1 - - [19/May/2023:06:41:55 +0000] "GET /weather/forecast?location=Sarajevo&days=3 HTTP/1.1" 401 31 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T06:41:55.870Z"}
+info: ::1 - - [19/May/2023:06:41:59 +0000] "POST /auth/login HTTP/1.1" 200 77 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T06:41:59.547Z"}
+info: Retrieved and cached weather forecast data for Sarajevo {"timestamp":"2023-05-19T06:42:07.482Z"}
+info: ::1 - - [19/May/2023:06:42:07 +0000] "GET /weather/forecast?location=Sarajevo&days=3 HTTP/1.1" 200 47943 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T06:42:07.487Z"}
+info: Retrieved and cached current weather data for Sarajevo {"timestamp":"2023-05-19T06:42:41.987Z"}
+info: ::1 - - [19/May/2023:06:42:41 +0000] "GET /weather/current?location=Sarajevo&startDate=11-11-2013&endDate=12-11-2013 HTTP/1.1" 200 666 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T06:42:41.991Z"}
+error: Failed to fetch weather history data for Sarajevo {"timestamp":"2023-05-19T06:42:51.926Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\api\controllers\weatherController.js:30:27) {"timestamp":"2023-05-19T06:42:51.929Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-19T06:42:51.931Z"}
+info: ::1 - - [19/May/2023:06:42:51 +0000] "GET /weather/history?location=Sarajevo&startDate=11-11-2013&endDate=12-11-2013 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T06:42:51.935Z"}
+error: Failed to fetch weather history data for Sarajevo {"timestamp":"2023-05-19T06:43:06.263Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\api\controllers\weatherController.js:30:27) {"timestamp":"2023-05-19T06:43:06.266Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-19T06:43:06.269Z"}
+info: ::1 - - [19/May/2023:06:43:06 +0000] "GET /weather/history?location=Sarajevo&startDate=11-4-2013&endDate=12-4-2023 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T06:43:06.273Z"}
+error: Failed to fetch weather history data for Sarajevo {"timestamp":"2023-05-19T06:43:11.171Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\api\controllers\weatherController.js:30:27) {"timestamp":"2023-05-19T06:43:11.174Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-19T06:43:11.177Z"}
+info: ::1 - - [19/May/2023:06:43:11 +0000] "GET /weather/history?location=Sarajevo&startDate=11-4-2023&endDate=12-4-2023 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T06:43:11.185Z"}
+info: Retrieved and cached weather history data for Sarajevo {"timestamp":"2023-05-19T06:43:17.983Z"}
+info: ::1 - - [19/May/2023:06:43:17 +0000] "GET /weather/history?location=Sarajevo&startDate=11-5-2023&endDate=12-5-2023 HTTP/1.1" 200 31785 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T06:43:17.989Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-19T09:08:25.715Z"}
+info: ::ffff:127.0.0.1 - - [19/May/2023:09:10:29 +0000] "GET /weather/current?location=sarajevo HTTP/1.1" 401 31 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T09:10:29.011Z"}
+info: ::ffff:127.0.0.1 - - [19/May/2023:09:11:00 +0000] "GET /auth/login/ HTTP/1.1" 404 150 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T09:11:00.403Z"}
+info: ::ffff:127.0.0.1 - - [19/May/2023:09:11:21 +0000] "POST /auth/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T09:11:21.740Z"}
+info: ::ffff:127.0.0.1 - - [19/May/2023:09:12:38 +0000] "POST /auth/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T09:12:38.298Z"}
+info: ::ffff:127.0.0.1 - - [19/May/2023:09:12:57 +0000] "POST /auth/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T09:12:57.011Z"}
+info: ::ffff:127.0.0.1 - - [19/May/2023:09:13:03 +0000] "POST /auth/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T09:13:03.837Z"}
+info: ::ffff:127.0.0.1 - - [19/May/2023:09:13:08 +0000] "POST /auth/login HTTP/1.1" 200 77 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T09:13:08.867Z"}
+info: Retrieved and cached current weather data for sarajevo {"timestamp":"2023-05-19T09:13:34.433Z"}
+info: ::ffff:127.0.0.1 - - [19/May/2023:09:13:34 +0000] "GET /weather/current?location=sarajevo HTTP/1.1" 200 662 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T09:13:34.436Z"}
+info: ::ffff:127.0.0.1 - - [19/May/2023:09:15:10 +0000] "POST /auth/signup HTTP/1.1" 400 35 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T09:15:10.831Z"}

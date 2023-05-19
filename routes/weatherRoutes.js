@@ -4,29 +4,24 @@ const {
   getWeatherForecast,
   getWeatherHistory,
 } = require("../api/controllers/weatherController");
-// const cacheMiddleware = require('../middlewares/cacheMiddleware');
-// const authMiddleware = require('../middlewares/authMiddleware');
-
+const authMiddleware = require('../middleware/authMiddleware');
 const router = express.Router();
 
 router.get(
   "/current",
-  // authMiddleware,
-  // cacheMiddleware,
+  authMiddleware,
   getCurrentWeather
 );
 
 router.get(
   "/forecast",
-  // authMiddleware,
-  // cacheMiddleware,
+  authMiddleware,
   getWeatherForecast
 );
 
 router.get(
   "/history",
-  // authMiddleware,
-  // cacheMiddleware,
+  authMiddleware,
   getWeatherHistory
 );
 
