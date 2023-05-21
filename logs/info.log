@@ -303,3 +303,35 @@ info: Retrieved and cached weather history data for london {"timestamp":"2023-05
 info: ::ffff:127.0.0.1 - - [21/May/2023:12:52:49 +0000] "GET /weather/history?location=london&startDate=2023-05-18&endDate=2022-05-20 HTTP/1.1" 200 237 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:52:49.105Z"}
 info: Retrieved and cached weather history data for london {"timestamp":"2023-05-21T12:53:40.424Z"}
 info: ::ffff:127.0.0.1 - - [21/May/2023:12:53:40 +0000] "GET /weather/history?location=london&startDate=2023-05-18&endDate=2023-05-20 HTTP/1.1" 200 47402 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:53:40.433Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-21T15:29:16.768Z"}
+info: ::1 - - [21/May/2023:15:31:59 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" {"timestamp":"2023-05-21T15:31:59.275Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:34:02 +0000] "POST //auth/signup HTTP/1.1" 404 152 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:34:02.909Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:34:16 +0000] "POST //auth/signup HTTP/1.1" 404 152 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:34:16.324Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:34:21 +0000] "POST //auth/login HTTP/1.1" 404 151 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:34:21.483Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:34:30 +0000] "GET //weather/forecast?location=sarajevo&days=3 HTTP/1.1" 404 156 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:34:30.598Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:35:04 +0000] "POST //auth/signup HTTP/1.1" 404 152 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:35:04.387Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:35:12 +0000] "POST //auth/login HTTP/1.1" 404 151 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:35:12.948Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:35:25 +0000] "GET //weather/current?location=sarajevo HTTP/1.1" 404 155 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:35:25.110Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:35:28 +0000] "POST //auth/signup HTTP/1.1" 404 152 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:35:28.015Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:35:30 +0000] "POST //auth/login HTTP/1.1" 404 151 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:35:30.637Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:35:49 +0000] "POST //auth/login HTTP/1.1" 404 151 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:35:49.769Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:36:01 +0000] "POST //auth/signup HTTP/1.1" 404 152 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:36:01.308Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:36:03 +0000] "GET //weather/forecast?location=sarajevo&days=3 HTTP/1.1" 404 156 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:36:03.384Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:36:05 +0000] "GET //weather/history?location=london&startDate=2023-05-18&endDate=2023-05-20 HTTP/1.1" 404 155 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:36:05.453Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:36:08 +0000] "GET //weather/current?location=sarajevo HTTP/1.1" 404 155 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:36:08.068Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:36:47 +0000] "GET //weather/forecast?location=sarajevo&days=3 HTTP/1.1" 404 156 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:36:47.381Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:40:16 +0000] "POST //auth/signup HTTP/1.1" 404 152 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:40:16.550Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:40:18 +0000] "POST //auth/signup HTTP/1.1" 404 152 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:40:18.995Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:40:19 +0000] "POST //auth/signup HTTP/1.1" 404 152 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:40:19.828Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:40:50 +0000] "POST //auth/signup HTTP/1.1" 404 152 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:40:50.117Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:40:59 +0000] "POST /auth/signup HTTP/1.1" 400 35 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:40:59.276Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:41:06 +0000] "POST /auth/login HTTP/1.1" 200 77 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:41:06.432Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:41:14 +0000] "POST /auth/login HTTP/1.1" 200 77 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:41:14.580Z"}
+info: Retrieved and cached weather forecast data for sarajevo {"timestamp":"2023-05-21T15:41:26.268Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:41:26 +0000] "GET /weather/forecast?location=sarajevo&days=3 HTTP/1.1" 200 48277 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:41:26.270Z"}
+info: Retrieved and cached weather history data for london {"timestamp":"2023-05-21T15:41:41.153Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:41:41 +0000] "GET /weather/history?location=london&startDate=2023-05-18&endDate=2023-05-20 HTTP/1.1" 200 47402 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:41:41.157Z"}
+info: Retrieved and cached current weather data for sarajevo {"timestamp":"2023-05-21T15:41:57.943Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:41:57 +0000] "GET /weather/current?location=sarajevo HTTP/1.1" 200 661 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:41:57.944Z"}
+info: Returning cached weather forecast data for sarajevo {"timestamp":"2023-05-21T15:46:18.000Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:15:46:18 +0000] "GET /weather/forecast?location=sarajevo&days=3 HTTP/1.1" 200 48277 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T15:46:18.003Z"}

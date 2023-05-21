@@ -1,0 +1,76 @@
+Weather App RESTful API
+This is a RESTful API for a weather app that allows users to retrieve current weather conditions for a specific location, as well as historical weather data for a given time range. The API provides endpoints for retrieving current weather, weather forecast, and historical weather data.
+
+API Endpoints
+The following endpoints are available in the Weather App API:
+
+/weather/current: Retrieves the current weather conditions for a specific location.
+/weather/forecast: Retrieves the weather forecast for a specific location.
+/weather/history: Retrieves historical weather data for a specific location.
+API Request and Response Format
+Current Weather
+Endpoint: /weather/current
+
+Request Method: GET
+
+Parameters:
+
+location (required): The location for which to retrieve the current weather conditions.
+Response Format:
+
+The API will return a JSON object with all available properties from the weather API provider for the current weather conditions. The specific properties returned will depend on the weather API provider being used.
+
+Weather Forecast
+Endpoint: /weather/forecast
+
+Request Method: GET
+
+Parameters:
+
+location (required): The location for which to retrieve the weather forecast.
+Response Format:
+
+The API will return a JSON object with all available properties from the weather API provider for the weather forecast. The specific properties returned will depend on the weather API provider being used.
+
+Historical Weather
+Endpoint: /weather/history
+
+Request Method: GET
+
+Parameters:
+
+location (required): The location for which to retrieve the historical weather data.
+start_date (required): The start date of the historical weather data range (format: YYYY-MM-DD).
+end_date (required): The end date of the historical weather data range (format: YYYY-MM-DD).
+Response Format:
+
+The API will return a JSON object with all available properties from the weather API provider for the historical weather data. The specific properties returned will depend on the weather API provider being used.
+
+Error Handling
+The API includes error handling for various scenarios, such as invalid location inputs and server errors. When an error occurs, the API will return an appropriate HTTP status code and an error message in the response body.
+
+Here are some examples of error responses:
+
+400 Bad Request: Returned when the user provides an invalid location or missing required parameters. The response body will contain an error message explaining the issue.
+500 Internal Server Error: Returned when an unexpected error occurs on the server. The response body will contain an error message indicating the server error.
+Integration with Weather API Provider
+To obtain weather data for the app, the API integrates with a weather API provider RapidAPi. The provider returns weather data in a specific format (e.g., JSON), which is processed and returned to the client.
+
+Caching for Performance Improvement
+To improve performance, the API implements caching for weather data. The weather data is cached for a certain period of time (e.g., 5-10 minutes) to avoid unnecessary requests to the weather API provider. The last refresh datetime is included in the response, along with the weather provider, to indicate the freshness of the data.
+
+API Authentication
+To ensure that only authorized users can access the API, basic authentication is implemented. Users and their passwords are stored in an encrypted form in a users.json file. The API retrieves user credentials from the file and compares them with the provided credentials during authentication. This ensures that sensitive weather data is protected and only accessible to authenticated users.
+
+Documentation
+The API is documented using Swagger, an interactive API documentation tool. The Swagger specification for the API can be found at the following link: https://app.swaggerhub.com/apis/IKENAN/weatherAPI/1.0.0#/Authentication/post_auth_signup
+
+The Swagger documentation provides detailed information about the API endpoints, request/response formats, and authentication requirements. It also allows developers to explore and test the API endpoints directly from the Swagger UI interface.
+
+Postman Collection
+A Postman collection is available for the Weather App API. The collection includes requests for each endpoint of the API, along with sample requests and responses. It can be used for testing and as a reference for interacting with the API.
+
+The Postman collection can be found at the following link: https://elements.getpostman.com/redirect?entityId=26131531-f054f786-64cd-4484-a376-0a731eea24a4&entityType=collection
+
+Conclusion
+The Weather App RESTful API provides an easy way to retrieve current weather conditions, weather forecasts, and historical weather data for specific locations. The API is well-documented using Swagger, includes error handling, caching, and authentication for enhanced functionality and security. The Postman collection further aids in testing and development of applications that interact with the API.
