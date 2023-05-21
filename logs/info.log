@@ -246,3 +246,60 @@ info: ::ffff:127.0.0.1 - - [19/May/2023:09:13:08 +0000] "POST /auth/login HTTP/1
 info: Retrieved and cached current weather data for sarajevo {"timestamp":"2023-05-19T09:13:34.433Z"}
 info: ::ffff:127.0.0.1 - - [19/May/2023:09:13:34 +0000] "GET /weather/current?location=sarajevo HTTP/1.1" 200 662 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T09:13:34.436Z"}
 info: ::ffff:127.0.0.1 - - [19/May/2023:09:15:10 +0000] "POST /auth/signup HTTP/1.1" 400 35 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-19T09:15:10.831Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-21T12:38:16.059Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:38:37 +0000] "POST /auth/login HTTP/1.1" 401 40 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:38:37.890Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-21T12:38:50.515Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:39:01 +0000] "POST /auth/signup HTTP/1.1" 200 31 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:39:01.788Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-21T12:39:02.561Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:39:12 +0000] "POST /auth/login HTTP/1.1" 200 77 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:39:12.913Z"}
+info: Retrieved and cached current weather data for sarajevo {"timestamp":"2023-05-21T12:45:52.217Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:45:52 +0000] "GET /weather/current?location=sarajevo HTTP/1.1" 200 670 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:45:52.224Z"}
+error: Failed to fetch weather history data for sarajevo {"timestamp":"2023-05-21T12:46:03.138Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\User\programming\weatherAPI\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\User\programming\weatherAPI\controllers\weatherController.js:30:27) {"timestamp":"2023-05-21T12:46:03.141Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-21T12:46:03.144Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:46:03 +0000] "GET /weather/history?location=sarajevo&startDate=2023-05-11&endDate=2022-05-15 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:46:03.148Z"}
+error: Failed to fetch weather history data for sarajevo {"timestamp":"2023-05-21T12:46:09.880Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\User\programming\weatherAPI\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\User\programming\weatherAPI\controllers\weatherController.js:30:27) {"timestamp":"2023-05-21T12:46:09.884Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-21T12:46:09.888Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:46:09 +0000] "GET /weather/history?location=sarajevo&startDate=2023-05-11&endDate=2022-05-15 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:46:09.892Z"}
+error: Failed to fetch weather history data for sarajevo {"timestamp":"2023-05-21T12:46:11.241Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\User\programming\weatherAPI\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\User\programming\weatherAPI\controllers\weatherController.js:30:27) {"timestamp":"2023-05-21T12:46:11.247Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-21T12:46:11.253Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:46:11 +0000] "GET /weather/history?location=sarajevo&startDate=2023-05-11&endDate=2022-05-15 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:46:11.260Z"}
+info: Retrieved and cached weather forecast data for sarajevo {"timestamp":"2023-05-21T12:46:18.620Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:46:18 +0000] "GET /weather/forecast?location=sarajevo&days=3 HTTP/1.1" 200 48173 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:46:18.625Z"}
+error: Failed to fetch weather history data for sarajevo {"timestamp":"2023-05-21T12:46:44.266Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\User\programming\weatherAPI\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\User\programming\weatherAPI\controllers\weatherController.js:30:27) {"timestamp":"2023-05-21T12:46:44.269Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-21T12:46:44.272Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:46:44 +0000] "GET /weather/history?location=sarajevo&startDate=2023-05-11&endDate=2022-05-15 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:46:44.277Z"}
+info: Retrieved and cached weather history data for sarajevo {"timestamp":"2023-05-21T12:47:28.882Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:47:28 +0000] "GET /weather/history?location=sarajevo&startDate=2023-05-18&endDate=2022-05-21 HTTP/1.1" 200 219 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:47:28.889Z"}
+info: Retrieved and cached weather history data for sarajevo {"timestamp":"2023-05-21T12:47:38.480Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:47:38 +0000] "GET /weather/history?location=sarajevo&startDate=2023-05-18&endDate=2022-05-20 HTTP/1.1" 200 219 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:47:38.492Z"}
+info: Retrieved and cached weather history data for sarajevo {"timestamp":"2023-05-21T12:48:02.337Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:48:02 +0000] "GET /weather/history?location=sarajevo&startDate=2023-05-15&endDate=2022-05-20 HTTP/1.1" 200 219 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:48:02.342Z"}
+info: Retrieved and cached weather history data for sarajevo {"timestamp":"2023-05-21T12:48:12.780Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:48:12 +0000] "GET /weather/history?location=sarajevo&startDate=2023-05-15&endDate=2022-05-18 HTTP/1.1" 200 219 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:48:12.787Z"}
+info: Retrieved and cached weather history data for london {"timestamp":"2023-05-21T12:48:34.804Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:48:34 +0000] "GET /weather/history?location=london&startDate=2023-05-15&endDate=2022-05-18 HTTP/1.1" 200 237 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:48:34.806Z"}
+info: Server running on port 3000 {"timestamp":"2023-05-21T12:49:51.792Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:49:55 +0000] "GET /weather/history?location=london&startDate=2023-05-15&endDate=2022-05-18 HTTP/1.1" 401 31 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:49:55.363Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:50:00 +0000] "POST /auth/login HTTP/1.1" 200 77 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:50:00.103Z"}
+info: Retrieved and cached weather history data for london {"timestamp":"2023-05-21T12:50:04.705Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:50:04 +0000] "GET /weather/history?location=london&startDate=2023-05-15&endDate=2022-05-18 HTTP/1.1" 200 237 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:50:04.710Z"}
+info: Retrieved and cached weather history data for london {"timestamp":"2023-05-21T12:52:49.095Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:52:49 +0000] "GET /weather/history?location=london&startDate=2023-05-18&endDate=2022-05-20 HTTP/1.1" 200 237 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:52:49.105Z"}
+info: Retrieved and cached weather history data for london {"timestamp":"2023-05-21T12:53:40.424Z"}
+info: ::ffff:127.0.0.1 - - [21/May/2023:12:53:40 +0000] "GET /weather/history?location=london&startDate=2023-05-18&endDate=2023-05-20 HTTP/1.1" 200 47402 "-" "PostmanRuntime/7.32.2" {"timestamp":"2023-05-21T12:53:40.433Z"}

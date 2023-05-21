@@ -106,3 +106,27 @@ error: Error: Failed to fetch weather history data
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async getWeatherHistory (C:\Users\darkm\Desktop\Tmp\weather-API\api\controllers\weatherController.js:30:27) {"timestamp":"2023-05-19T06:43:11.174Z"}
 error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\darkm\\Desktop\\Tmp\\weather-API\\api\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-19T06:43:11.177Z"}
+error: Failed to fetch weather history data for sarajevo {"timestamp":"2023-05-21T12:46:03.138Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\User\programming\weatherAPI\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\User\programming\weatherAPI\controllers\weatherController.js:30:27) {"timestamp":"2023-05-21T12:46:03.141Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-21T12:46:03.144Z"}
+error: Failed to fetch weather history data for sarajevo {"timestamp":"2023-05-21T12:46:09.880Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\User\programming\weatherAPI\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\User\programming\weatherAPI\controllers\weatherController.js:30:27) {"timestamp":"2023-05-21T12:46:09.884Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-21T12:46:09.888Z"}
+error: Failed to fetch weather history data for sarajevo {"timestamp":"2023-05-21T12:46:11.241Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\User\programming\weatherAPI\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\User\programming\weatherAPI\controllers\weatherController.js:30:27) {"timestamp":"2023-05-21T12:46:11.247Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-21T12:46:11.253Z"}
+error: Failed to fetch weather history data for sarajevo {"timestamp":"2023-05-21T12:46:44.266Z"}
+error: Error: Failed to fetch weather history data
+    at Object.getWeatherHistory (C:\Users\User\programming\weatherAPI\services\weatherService.js:107:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWeatherHistory (C:\Users\User\programming\weatherAPI\controllers\weatherController.js:30:27) {"timestamp":"2023-05-21T12:46:44.269Z"}
+error: An error occurred: Failed to fetch weather history data {"stack":"Error: Failed to fetch weather history data\n    at Object.getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\services\\weatherService.js:107:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getWeatherHistory (C:\\Users\\User\\programming\\weatherAPI\\controllers\\weatherController.js:30:27)","timestamp":"2023-05-21T12:46:44.272Z"}

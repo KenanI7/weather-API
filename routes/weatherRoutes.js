@@ -3,26 +3,14 @@ const {
   getCurrentWeather,
   getWeatherForecast,
   getWeatherHistory,
-} = require("../api/controllers/weatherController");
-const authMiddleware = require('../middleware/authMiddleware');
+} = require("../controllers/weatherController");
+const authMiddleware = require("../middleware/authMiddleware");
 const router = express.Router();
 
-router.get(
-  "/current",
-  authMiddleware,
-  getCurrentWeather
-);
+router.get("/current", authMiddleware, getCurrentWeather);
 
-router.get(
-  "/forecast",
-  authMiddleware,
-  getWeatherForecast
-);
+router.get("/forecast", authMiddleware, getWeatherForecast);
 
-router.get(
-  "/history",
-  authMiddleware,
-  getWeatherHistory
-);
+router.get("/history", authMiddleware, getWeatherHistory);
 
 module.exports = router;
